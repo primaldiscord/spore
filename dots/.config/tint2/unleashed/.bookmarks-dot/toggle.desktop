@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=toggle
+Type=Link
+Icon=~/spore/assets/haeckel4.png
+Exec=bspc node -t ~floating

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=code
+Type=Link
+Icon=~/spore/assets/haeckel3.png
+Exec=code

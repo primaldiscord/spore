@@ -1,0 +1,9 @@
+2023/10/17-18:16:24.502 48e Reusing MANIFEST /home/lryn/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/17-18:16:24.503 48e Recovering log #26
+2023/10/17-18:16:24.503 48e Reusing old log /home/lryn/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000026.log 
+2023/10/17-18:16:25.272 48f Compacting 1@1 + 1@2 files
+2023/10/17-18:16:25.278 48f Generated table #29@1: 449 keys, 65448 bytes
+2023/10/17-18:16:25.278 48f Compacted 1@1 + 1@2 files => 65448 bytes
+2023/10/17-18:16:25.279 48f compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/17-18:16:25.279 48f Delete type=2 #27
+2023/10/17-18:16:25.279 48f Delete type=2 #24
