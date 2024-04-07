@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Terminal
+Type=Link
+Icon=/home/addy/.config/tint2/unleashed/.bookmarks-dot/icons/haeckel1.png
+Exec=alacritty

@@ -1,0 +1,48 @@
+alt + Return
+	alacritty
+
+ctrl + Return
+	code
+
+alt + space
+	~/.config/rofi/scripts/launcher_t1
+
+super + space
+	bspc node -t floating
+
+alt + v
+	clipmenu -i -fn Hack:size=13 -nb '#002b36' -nf '#839496' -sb '#073642' -sf '#93a1a1'
+	#CM_LAUNCHER=~/.config/rofi/scripts/launcher_t1
+
+# close and kill
+alt + {_,shift + }w
+	bspc node -{c,k}
+
+# reload
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+# backlighting
+alt + F8
+	xbacklight -inc 3
+
+alt + F7
+	xbacklight -dec 3
+
+#restart bspwm
+ctrl + alt + {q,r}
+	bspc {quit, wm -r}
+
+#focus/send to desktop
+alt + {_,shift }{1-9,0}
+	bspc {desktop -f, node -d} '^{1-9,10}'
+
+alt + Delete
+	~/.config/rofi/scripts/powermenu_t2
+
+# sizing
+super + shift + {Left,Down,Up,Right}
+    bspc node -z {left 10 0,bottom 0 10,top 0 10,right 10 0}
+
+super + {Left,Right,Up,Down}
+    bspc node -z {left -10 0, right -10 0,top 0 -10,bottom 0 -10}

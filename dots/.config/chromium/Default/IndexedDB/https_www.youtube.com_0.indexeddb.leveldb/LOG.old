@@ -1,0 +1,6 @@
+2023/10/10-20:38:51.141 24cb Reusing MANIFEST /home/lryn/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/10-20:38:51.141 24cb Recovering log #22
+2023/10/10-20:38:51.146 24cb Reusing old log /home/lryn/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000022.log 
+2023/10/10-20:38:55.248 24cc Level-0 table #27: started
+2023/10/10-20:38:55.260 24cc Level-0 table #27: 1768366 bytes OK
+2023/10/10-20:38:55.261 24cc Delete type=0 #22

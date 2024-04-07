@@ -1,0 +1,22 @@
+2023/10/10-20:25:58.812 24cb Reusing MANIFEST /home/lryn/.config/chromium/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
+2023/10/10-20:25:58.812 24cb Recovering log #8
+2023/10/10-20:25:58.815 24cb Reusing old log /home/lryn/.config/chromium/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/000008.log 
+2023/10/10-20:32:56.710 24cc Level-0 table #12: started
+2023/10/10-20:32:56.730 24cc Level-0 table #12: 1681879 bytes OK
+2023/10/10-20:32:56.734 24cc Delete type=0 #8
+2023/10/10-20:33:05.311 24cc Level-0 table #14: started
+2023/10/10-20:33:05.334 24cc Level-0 table #14: 1671028 bytes OK
+2023/10/10-20:33:05.336 24cc Delete type=0 #11
+2023/10/10-20:33:07.333 24cc Level-0 table #16: started
+2023/10/10-20:33:07.356 24cc Level-0 table #16: 1933739 bytes OK
+2023/10/10-20:33:07.360 24cc Delete type=0 #13
+2023/10/10-20:33:07.361 24cc Compacting 4@0 + 1@1 files
+2023/10/10-20:33:07.389 24cc Generated table #17@0: 6 keys, 2276956 bytes
+2023/10/10-20:33:07.401 24cc Generated table #18@0: 10 keys, 1761561 bytes
+2023/10/10-20:33:07.401 24cc Compacted 4@0 + 1@1 files => 4038517 bytes
+2023/10/10-20:33:07.401 24cc compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/10/10-20:33:07.402 24cc Delete type=2 #12
+2023/10/10-20:33:07.402 24cc Delete type=2 #7
+2023/10/10-20:33:07.402 24cc Delete type=2 #14
+2023/10/10-20:33:07.402 24cc Delete type=2 #9
+2023/10/10-20:33:07.402 24cc Delete type=2 #16
