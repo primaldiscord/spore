@@ -14,11 +14,8 @@ font:
     family: Hack
     style: Bold Italic
   size: 8
-offset:
-  x: 0
-  y: 1
 
-GruvboxDark: &GruvboxDark
+colors:
   primary:
     background: '#282828'
     foreground: '#ebdbb2'
@@ -40,5 +37,3 @@ GruvboxDark: &GruvboxDark
     magenta:    '#d3869b'
     cyan:       '#8ec07c'
     white:      '#ebdbb2'
-
-colors: *GruvboxDark

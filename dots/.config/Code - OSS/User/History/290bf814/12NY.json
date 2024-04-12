@@ -1,0 +1,9 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 20,
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 16
+}

@@ -1,0 +1,31 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+pgrep -x picom > /dev/null || picom &
+pgrep -x tint2 > /dev/null || tint2 ~/.config/tint2/unleashed/unleashed-bookmark.tint2rc &
+pgrep -x tint2 > /dev/null || tint2 ~/.config/tint2/unleashed/unleashed-clock.tint2rc &
+pgrep -x tint2 > /dev/null || tint2 ~/.config/tint2/unleashed/unleashed-taskbar.tint2rc &
+clipmenud &
+xsetroot -cursor_name left_ptr &
+#tint2 ~/.config/tint2/unleashed/u nleashed-taskbar.tint2rc &
+#tint2 ~/.config/tint2/unleashed/unleashed-statusbar.tint2rc &
+#tint2 ~/.config/tint2/unleashed/unleashed-workspace.tint2rc &
+#tint2 ~/.config/tint2/unleashed/unleashed-clock.tint2rc &
+#tint2 ~/.config/tint2/unleashed/unleashed-bookmark.tint2rc &
+
+xrandr --dpi 192 &
+
+dropbox &
+
+bspc monitor -d I II III
+
+bspc config border_width 0
+bspc config window_gap 12
+bspc config active_border_color "#22483D"
+
+bspc rule -a Alacritty state=floating rectangle=1000x800+625+10
+bspc rule -a firefox state=floating rectangle=1800x1400+10+50
+bspc rule -a code-oss state=floating rectangle=1200x1400+1050+10
+bspc rule -a Spotify state=floating rectangle=1030x700+10+10
+
+feh --bg-fill ~/Downloads/thing2.jpg

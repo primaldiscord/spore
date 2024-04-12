@@ -45,6 +45,17 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/lryn/spore",
+                                        "path": "/home/lryn/spore",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/spore"
+                                },
+                                {
                                     "id": "openRecentWorkspace",
                                     "uri": {
                                         "$mid": 1,
@@ -191,7 +202,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -201,6 +213,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -330,7 +349,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Workspace"
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -543,6 +562,10 @@
                                     "label": "&&Panel"
                                 },
                                 {
+                                    "id": "toggle.toggleCustomTitleBar",
+                                    "label": "Custom Title Bar"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -555,9 +578,17 @@
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.activityBarLocation.side",
-                                                "label": "&&Side",
+                                                "id": "workbench.action.activityBarLocation.default",
+                                                "label": "&&Default",
                                                 "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.top",
+                                                "label": "&&Top"
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.bottom",
+                                                "label": "&&Bottom"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
@@ -644,6 +675,10 @@
                                                 "checked": true
                                             },
                                             {
+                                                "id": "workbench.action.editorActionsTitleBar",
+                                                "label": "Title Bar"
+                                            },
+                                            {
                                                 "id": "workbench.action.hideEditorActions",
                                                 "label": "Hidden"
                                             }
@@ -660,12 +695,13 @@
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "&&Breadcrumbs",
+                                    "label": "Toggle &&Breadcrumbs",
                                     "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
-                                    "label": "&&Sticky Scroll"
+                                    "label": "&&Sticky Scroll",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -844,8 +880,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1125,6 +1160,10 @@
                                 {
                                     "id": "editor.debug.action.addLogPoint",
                                     "label": "&&Logpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.triggerByBreakpoint",
+                                    "label": "&&Triggered Breakpoint..."
                                 }
                             ]
                         }
@@ -1503,6 +1542,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
+            "workbench.action.copyEditorToNewWindow": {
+                "label": "Ctrl+K O",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k o"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1742,20 +1786,22 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 326,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/lryn/.config/Code - OSS/Backups/1712442253675",
+            "folder": "file:///home/lryn/spore",
+            "backupPath": "/home/lryn/.config/Code - OSS/Backups/95d8557d0d1a019feb3b46b678ca440e",
             "uiState": {
                 "mode": 1,
-                "x": 1091,
-                "y": 12,
-                "width": 1068,
-                "height": 1450
+                "x": 1050,
+                "y": 10,
+                "width": 1200,
+                "height": 1400,
+                "zoomLevel": 1
             }
         },
         "openedWindows": []
@@ -1767,22 +1813,20 @@
                 "configURIPath": "file:///home/lryn/luke.code-workspace"
             }
         ],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1712442253675"
+                "folderUri": "file:///home/lryn/spore"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/lryn/luke.code-workspace": "__default__profile__"
+            "file:///home/lryn/luke.code-workspace": "__default__profile__",
+            "file:///home/lryn/spore": "__default__profile__"
         },
-        "emptyWindows": {
-            "1712439867661": "__default__profile__",
-            "1712442253675": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": ""
