@@ -6,8 +6,8 @@
 #-------------------------------------
 # Backgrounds
 # Background 1: Clock and batt
-rounded = 80
-border_width = 5
+rounded = 1
+border_width = 0
 border_sides = TL
 background_color = #777777 0
 border_color = #c0b3d1 100
@@ -28,15 +28,15 @@ background_color_pressed = #555555 4
 border_color_pressed = #eaeaea 44
 
 # Background 3: 
-rounded = 4
-border_width = 1
-border_sides = TBLR
-background_color = #aa4400 100
-border_color = #aa7733 100
-background_color_hover = #cc7700 100
-border_color_hover = #aa7733 100
+rounded = 10
+border_width = 2
+border_sides = B
+background_color = #777777 0
+border_color = #8F00FF 80
+background_color_hover = #aaaaaa 22
+border_color_hover = #eaeaea 44
 background_color_pressed = #555555 4
-border_color_pressed = #aa7733 100
+border_color_pressed = #eaeaea 44
 
 # Background 4: Tooltip
 rounded = 0
@@ -51,15 +51,15 @@ border_color_pressed = #000000 0
 
 #-------------------------------------
 # Panel
-panel_items = BC
-panel_size = 120 120
-panel_margin = 5 5
-panel_padding = 20 0 0 20
+panel_items = C
+panel_size = 150 50
+panel_margin = 0 0
+panel_padding = 0 0 0 0
 panel_background_id = 1
 wm_menu = 1
 panel_dock = 0
-panel_position = bottom right vertical
-panel_layer = bottom
+panel_position = bottom center horizontal
+panel_layer = top
 panel_monitor = all
 panel_shrink = 0
 autohide = 0
@@ -94,7 +94,7 @@ taskbar_name_font_color = #e3e3e3 100
 taskbar_name_active_font_color = #ffffff 100
 taskbar_distribute_size = 0
 taskbar_sort_order = none
-task_align = left
+task_align = center
 
 #-------------------------------------
 # Task
@@ -142,10 +142,10 @@ time2_format = %H : %M
 time1_font = Hack 10
 time1_timezone = 
 time2_timezone = 
-time2_font = Hack Bold 18
-clock_font_color = #c0b3d1 100
+time2_font = Hack Bold 20
+clock_font_color = #c0b3d1 60
 clock_padding = 0 5
-clock_background_id = 0
+clock_background_id = 3
 clock_tooltip = 
 clock_tooltip_timezone = 
 clock_lclick_command = 
