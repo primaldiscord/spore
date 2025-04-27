@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=Terminal
-Type=Link
-URL=/usr/bin/alacritty
-Icon=~/spore/assets/haeckel1.png
-Exec=alacritty
