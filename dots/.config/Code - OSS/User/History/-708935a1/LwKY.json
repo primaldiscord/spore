@@ -1,0 +1,16 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 16,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "files.autoSave": "afterDelay",
+    "workbench.preferredDarkColorTheme": "Abyss",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "window.restoreWindows": "preserve",
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#664494",
+        "tab.unfocusedActiveBackground": "#ff0000"
+    }
+}

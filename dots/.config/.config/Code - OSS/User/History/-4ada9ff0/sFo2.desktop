@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=spore
-Type=Link
-URL=file:///~/Dropbox/Whatchudohome.odt
-Icon=/home/addy/.config/tint2/unleashed/.bookmarks-dot/icons/9gag.png
-Exec=libreoffice --writer ~/Dropbox/Whatchudohome.odt & libreoffice --writer ~/Dropbox/Bank3.odt

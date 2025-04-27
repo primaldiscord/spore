@@ -1,5 +1,0 @@
-file:///home/lryn/.config/scratch {"mtime":1662840387110,"ctime":1662840380683,"size":209,"etag":"39bf251bd6n","orphaned":false,"typeId":""}
-#!/usr/bin/sh
-# only add floating scratchpad window node id to /tmp/scratchid
-bspc query -N -n .floating | xargs -i sh -c 'bspc query  --node {} -T | grep -q scratchpad && echo {} > /tmp/scratchid'
-exec $SHELL w
