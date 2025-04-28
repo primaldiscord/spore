@@ -1761,25 +1761,22 @@
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#a89984",
+            "foreground": "#f6f6f4",
             "background": "#1a1a1b",
             "editorBackground": "#1a1a1b",
-            "titleBarBackground": "#292828",
-            "titleBarBorder": "#292828",
-            "activityBarBackground": "#292828",
-            "activityBarBorder": "#292828",
+            "titleBarBackground": "#262626",
+            "activityBarBackground": "#343746",
             "sideBarBackground": "#1a1a1b",
             "sideBarBorder": "#9e6ff7",
-            "statusBarBackground": "#292828",
-            "statusBarBorder": "#292828",
-            "statusBarNoFolderBackground": "#292828"
+            "statusBarBackground": "#191a21",
+            "statusBarNoFolderBackground": "#191a21"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 261,
+            "sideBarWidth": 396,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
