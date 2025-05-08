@@ -1,0 +1,12 @@
+2025/05/03-22:40:54.544 891 Reusing MANIFEST /home/lryn/.config/Notesnook/Local Storage/leveldb/MANIFEST-000001
+2025/05/03-22:40:54.549 891 Recovering log #4
+2025/05/03-22:40:54.550 891 Reusing old log /home/lryn/.config/Notesnook/Local Storage/leveldb/000004.log 
+2025/05/04-15:21:51.070 891 Level-0 table #8: started
+2025/05/04-15:21:51.072 891 Level-0 table #8: 28867 bytes OK
+2025/05/04-15:21:51.074 891 Delete type=0 #4
+2025/05/04-15:31:43.598 891 Level-0 table #10: started
+2025/05/04-15:31:43.613 891 Level-0 table #10: 25823 bytes OK
+2025/05/04-15:31:43.615 891 Delete type=0 #7
+2025/05/04-16:12:04.828 891 Level-0 table #12: started
+2025/05/04-16:12:04.842 891 Level-0 table #12: 21324 bytes OK
+2025/05/04-16:12:04.846 891 Delete type=0 #9
