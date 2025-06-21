@@ -1,9 +1,5 @@
-2025/05/03-22:40:54.676 88f Reusing MANIFEST /home/lryn/.config/Notesnook/Session Storage/MANIFEST-000001
-2025/05/03-22:40:54.677 88f Recovering log #3
-2025/05/03-22:40:54.677 88f Reusing old log /home/lryn/.config/Notesnook/Session Storage/000003.log 
-2025/05/04-15:35:43.598 88f Level-0 table #5: started
-2025/05/04-15:35:43.611 88f Level-0 table #5: 10282 bytes OK
-2025/05/04-15:35:43.614 88f Delete type=0 #3
-2025/05/04-16:08:11.908 88f Level-0 table #7: started
-2025/05/04-16:08:11.922 88f Level-0 table #7: 10395 bytes OK
-2025/05/04-16:08:11.925 88f Delete type=0 #4
+2025/05/07-23:06:02.820 5ee9 Reusing MANIFEST /home/lryn/.config/Notesnook/Session Storage/MANIFEST-000001
+2025/05/07-23:06:02.820 5ee9 Recovering log #6
+2025/05/07-23:06:02.821 5ee9 Level-0 table #9: started
+2025/05/07-23:06:02.823 5ee9 Level-0 table #9: 9458 bytes OK
+2025/05/07-23:06:02.825 5ee9 Delete type=0 #6

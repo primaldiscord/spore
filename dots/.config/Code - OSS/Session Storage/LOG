@@ -1,4 +1,4 @@
-2025/05/03-19:59:59.453 516 Reusing MANIFEST /home/lryn/.config/Code - OSS/Session Storage/MANIFEST-000001
-2025/05/03-19:59:59.453 516 Recovering log #3
-2025/05/03-19:59:59.454 516 (ignoring error) /home/lryn/.config/Code - OSS/Session Storage/000003.log: dropping 3883 bytes; Corruption: checksum mismatch
-2025/05/03-19:59:59.454 516 Reusing old log /home/lryn/.config/Code - OSS/Session Storage/000003.log 
+2025/06/19-18:09:11.819 47f Reusing MANIFEST /home/lryn/.config/Code - OSS/Session Storage/MANIFEST-000001
+2025/06/19-18:09:11.819 47f Recovering log #3
+2025/06/19-18:09:11.819 47f (ignoring error) /home/lryn/.config/Code - OSS/Session Storage/000003.log: dropping 3902 bytes; Corruption: checksum mismatch
+2025/06/19-18:09:11.819 47f Reusing old log /home/lryn/.config/Code - OSS/Session Storage/000003.log 

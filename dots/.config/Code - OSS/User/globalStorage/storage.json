@@ -1821,5 +1821,17 @@
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.devDeviceId": "500152d2-0701-41fe-8b6c-3f429aff4813",
-    "windowControlHeight": 35
+    "windowControlHeight": 35,
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 308,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "a1f3aa7f5ba1853b4fff4ecb76777b37": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
 }
