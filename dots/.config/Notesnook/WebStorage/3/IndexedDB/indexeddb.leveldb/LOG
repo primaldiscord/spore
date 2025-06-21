@@ -1,0 +1,6 @@
+2025/05/04-14:42:10.090 88f Creating DB /home/lryn/.config/Notesnook/WebStorage/3/IndexedDB/indexeddb.leveldb since it was missing.
+2025/05/04-14:42:10.092 88f Reusing MANIFEST /home/lryn/.config/Notesnook/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/05/04-14:42:13.844 893 Level-0 table #5: started
+2025/05/04-14:42:13.845 893 Level-0 table #5: 480 bytes OK
+2025/05/04-14:42:13.846 893 Delete type=0 #3
+2025/05/04-14:42:13.846 893 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

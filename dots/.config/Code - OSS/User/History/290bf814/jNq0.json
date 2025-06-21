@@ -1,0 +1,22 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 18,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "files.autoSave": "afterDelay",
+    "workbench.preferredDarkColorTheme": "Abyss",
+    "workbench.colorTheme": "Dracula Theme",
+    "window.restoreWindows": "preserve",
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#3b1e61",
+        "tab.unfocusedActiveBackground": "#313344",
+        "tab.activeForeground": "#aec6cf",
+        "sideBar.border": "#9e6ff7",
+        "tab.activeBorder":"#3b1e61",
+        "tab.unfocusedActiveBorder": "#313344",
+        "editor.background": "#1A1A1B",
+        "sideBar.background": "#1A1A1B"
+    }
+}
